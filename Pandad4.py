@@ -43,13 +43,4 @@ print(df[df["Attendance"]>90])
 print(df[df["Python_Marks"]<70])
 print(df[(df["City"]=="Nagpur")& (df["Python_Marks"]>=80)])
 print(df[(df["City"]=="Pune")&(df["Attendance"]>=90)])
-# print(df[(df["Python_Marks"] >= 80) & (df["Sql_Marks"] >= 80)])
-# print(df[(df["Attendance"]>=85)& (df["Sql_Marks"]>=80)])
-# print(df[(df["City"]=="Mumbai")& (df["Python_Marks"]>=75)])
 
-# Nagpur ke students jinke Python marks 80+ hain.
-# print(df[(df["City"]=="Nagpur")& (df["Python_marks"]>=80)])
-# # Pune ke students jinki attendance 90+ hai.
-# Students jinke Python marks 80+ AND SQL marks 80+ hain.
-# Students jinki attendance 85+ AND Python marks 80+ hain.
-# Mumbai ke students jinke Python marks 75+ hain.
